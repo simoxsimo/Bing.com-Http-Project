@@ -4,13 +4,16 @@ class Binghttp
   attr_accessor :query, :response
   def initialize()
     @query = ''
+    @response = ''
   end
 
-  def query_transform()
+  def query_transform_search()
     query_get
     @query = @query.downcase.tr(' ', '+')
     search_get
   end
+
+  private
 
   def query_get()
     puts 'What are you Searching for?'
@@ -24,15 +27,16 @@ class Binghttp
 end
 
 run = Binghttp.new
-results = run.query_transform
+results = run.query_transform_search
 
 # get code
-# puts results.code
+puts results.code
 
 # get header
-# puts results.headers
+puts results.headers
 
 # get cookie
 puts results.cookies
+
 # get body
-# puts results.body
+puts results.body
