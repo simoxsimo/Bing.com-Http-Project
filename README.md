@@ -50,8 +50,8 @@ This project has been developed using:
 
 👤 **Bafiam Steve**
 
-- Github: [@bafiam](https://github.com/https://github.com/bafiam)
+- Github: [@bafiam](https://github.com/bafiam)
 
 👤 **Mohammed TOUILI**
 
-- Github: [@simoxsimo](https://github.com/https://github.com/simoxsimo)
+- Github: [@simoxsimo](https://github.com/simoxsimo)
